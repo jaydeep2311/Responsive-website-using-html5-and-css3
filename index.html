@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+    <title>Website</title>
+</head>
+<body> <nav class="nav">
+    <h1 class="Logo">ADVENTURE</h1>
+    <ul class="nav-links">
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Explore</a></li>
+    </ul>
+    <img src="images/menu-icon.png" alt="" class="menu-btn">
+</nav>
+    
+<header>
+       
+        <div class="header-content">
+            <h2>Explore the colourful world</h2>
+            <div class="line"></div>
+            <h1>A WONDERFULL GIFT</h1>
+            <button class="ctn">Learn More</button>
+        </div>
+    </header>
+    <section class="events">
+        <h1 class="title">Upcoming events</h1>
+        <div class="line"></div>
+        <div class="row">
+            <div class="col">
+                <img src="images/traveller.jpg" alt="" class="sec-img">
+                <h4>Tavelling Camp</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ab?</p>
+                <button class="ctn">Learn More</button>
+            </div>
+            <div class="col">
+                <img src="images/traveller-1.jpg" alt="" class="sec-img">
+                <h4>Treking camp</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ab? </p>
+                <button class="ctn">Learn More</button>
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+        <h1>EXPLORE WORLD</h1>
+    <div class="line"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero provident labore, dicta magni ipsam aut.</p>
+    <buttton class="ctn">Learn more</buttton></div>
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS AND DESTINATION</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, tenetur. Necessitatibus consectetur minima officia aspernatur qui, architecto totam aperiam dolores?</p>
+           <button class="ctn">Learn more</button>
+            </div>
+            <div class="col image-col">
+                <div class="img-gallery ">
+                    <img src="images/img-1.jpg" alt="">
+                    <img src="images/img-2.jpg" alt="">
+                    <img src="images/img-3.jpg" alt="">
+                    <img src="images/img-4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>13th Street 47 W 13th St, New York, NY 10011, USA 20 Cooper Square 20 Cooper Square, New York, NY 10003, USA</p>
+        <p>copyright &copy; 2020 adventure club</p>
+    </section>
+    <script>
+        const menubtn = document.querySelector('.menu-btn');
+        const navlinks =document.querySelector('.nav-links');
+        menubtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu');
+        })
+    </script>
+</body>
+</html>
